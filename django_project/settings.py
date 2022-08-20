@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     # Local
     "accounts",
     "pages",
+    "manifest_app"
 ]
 
 # MIDDLEWARE

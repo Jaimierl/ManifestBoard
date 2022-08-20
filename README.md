@@ -1,3 +1,15 @@
+# Manifest Board
+
+## API
+
+This is a Django app where you can track your goals and manifestations. The manifestations are displayed on cards that are editable and display the goal, a description, a deadline, and an image.
+
+## Resources
+
+Django Bootstrap cards <https://medium.com/geekculture/tiny-django-tutorial-bootstrap-cards-25e8dde6f21a>
+
+## DjangoX
+
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).
 
 ## 🚀 Features
