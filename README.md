@@ -8,6 +8,9 @@ This is a Django app where you can track your goals and manifestations. The mani
 
 Django Bootstrap cards <https://medium.com/geekculture/tiny-django-tutorial-bootstrap-cards-25e8dde6f21a>
 
+Default Photo by <a href="https://unsplash.com/@philipmyr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Philip Myrtorp</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+
 ## DjangoX
 
 > A batteries-included Django starter project. To learn more try the books [Django for Beginners](https://djangoforbeginners.com), [Django for APIs](https://djangoforapis.com), and [Django for Professionals](https://djangoforprofessionals.com).

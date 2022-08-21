@@ -4,6 +4,27 @@
 
 {% block content %}
 <h1>Manifest Board</h1>
-<h3>Manifest Board</h3>
 
+<p> <a href="{% url 'create_manifestation' %}">Add A New Manifestation!</a></p>
+
+<div style="display: flex; flex-direction: row; flex-wrap: wrap">
+    
+    {% for manifesting in manifested_goals %}
+
+    <a href="{% url 'detail_movie' movie.pk %}">{{manifesting.goal}}</a>
+
+    <!-- {#  Single Card Template:#}
+      <div class="card" style="width: 18rem; margin: 10px">
+        <img src="{{ manifesting.image_url }}" class="card-img-top" >
+        <div class="card-body">
+          <div style="display: flex; flex-direction: row">
+            <h5 class="card-title">{{manifesting.goal}}</h5>
+          </div>
+          <p class="card-text">{{manifesting.description}}</p>
+          <a href="/{% url 'update_manifestation' manifesting.pk %}" class="btn btn-primary">Update Goal</a>
+          <a href="/{% url 'delete_manifestation' manifesting.pk %}" class="btn btn-primary">Delete Goal</a>
+        </div>
+      </div> -->
+    {% endfor %}
+</div>
 {% endblock content %}

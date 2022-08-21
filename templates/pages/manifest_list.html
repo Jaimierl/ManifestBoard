@@ -1,0 +1,18 @@
+{% extends '_base.html' %}
+
+{% block content %}
+
+    <h1>Manifest Board</h1>
+
+    <p> <a href="{% url 'create_manifestation' %}">List Page</a></p>
+
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap">
+        
+        {% for manifesting in manifested_goals %}
+
+        <a href="{% url 'detail_manifestation' manifesting.pk %}">{{manifesting.goal}}</a>
+        
+        {% endfor %}
+    </div>
+
+{%  endblock content %}
